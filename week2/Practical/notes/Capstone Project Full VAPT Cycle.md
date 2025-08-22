@@ -14,7 +14,7 @@ I executed a complete penetration testing engagement following PTES (Penetration
 
 target machine ip checked
 
-![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755849191131.jpeg))]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755849191131.jpeg)
 
 
 ![[Capstone Project Full VAPT Cycle-1755849191131.jpeg]] 
@@ -25,6 +25,7 @@ attacker machine ip check
 ifconfig
 ```
 ![[Capstone Project Full VAPT Cycle-1755849276806.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755849276806.jpeg)
 
 ### Phase 1: Pre-Engagement
 
@@ -296,6 +297,7 @@ Finished
                                                                               
 ```
 ![[Capstone Project Full VAPT Cycle-1755851743645.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755851743645.jpeg)
 
 nikto web scan
 ```bash 
@@ -337,7 +339,8 @@ output:
 
 screenshot:
 
-![[Capstone Project Full VAPT Cycle-1755853627656.jpeg]]
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755853627656.jpeg)
 
 #### Whatweb technology detection 
 
@@ -524,7 +527,7 @@ HTTP Headers:
 
 screenshot:
 ![[Capstone Project Full VAPT Cycle-1755854572690.jpeg]]
-
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755854572690.jpeg)
 
 #### OpenVAS scan :
 
@@ -539,13 +542,16 @@ go to browser and http://localhost:9392
 
 create task to scan target.
 ![[Capstone Project Full VAPT Cycle-1755854982725.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755854982725.jpeg)
+
 
 started scaning:
 ![[Capstone Project Full VAPT Cycle-1755855013300.jpeg]]
-
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755855013300.jpeg)
 
 results:
 ![[Capstone Project Full VAPT Cycle-1755859784172.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755859784172.jpeg)
 
 ### Phase 3: Threat Modeling
 
@@ -586,6 +592,7 @@ run
 ```
 
 ![[Capstone Project Full VAPT Cycle-1755860347709.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755860347709.jpeg)
 
 
 #### SQL Injection Attack
@@ -598,11 +605,14 @@ sqlmap -u "http://192.168.1.5/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" \
        --dbs --batch --level=3 --risk=3
 
 ```
-![[Capstone Project Full VAPT Cycle-1755859934733.jpeg]]
-![[Capstone Project Full VAPT Cycle-1755861589271.jpeg]]
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755859934733.jpeg)
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755861589271.jpeg)
 	
 
-![[Capstone Project Full VAPT Cycle-1755861603880.jpeg]]
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755861603880.jpeg)
 
 
 #### XSS exploitation
@@ -610,11 +620,13 @@ sqlmap -u "http://192.168.1.5/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" \
 
 reflected xss screenshot:
 
-![[Capstone Project Full VAPT Cycle-1755855893443.jpeg]]
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755855893443.jpeg)
 
 stored xss 
 
-![[Capstone Project Full VAPT Cycle-1755856142910.jpeg]]
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755856142910.jpeg)
 
 
 #### Command Injection Exploitation
@@ -629,8 +641,9 @@ I achieved command execution through the ping functionality:
 
 output:
  
-![[Capstone Project Full VAPT Cycle-1755857502970.jpeg]]
 
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755857502970.jpeg)
 observation : able to read sensitive files from the dvwa server.
 
 #### File Upload Exploitation
@@ -644,10 +657,12 @@ PHP
 ```
 
 ![[Capstone Project Full VAPT Cycle-1755857743092.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755857743092.jpeg)
 
 result :
 
 ![[Capstone Project Full VAPT Cycle-1755858625549.jpeg]]
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755858625549.jpeg)
 
 able to do command injection using my payload/
 
@@ -663,7 +678,7 @@ I established persistence and collected evidence:
 
 #### Technical Report 
 
-**Executive Summary:** During the authorized penetration test of DVWA application conducted on August 18, 2025, I identified and successfully exploited four critical vulnerabilities that could lead to complete system compromise. The application's current security posture presents significant risk to data confidentiality, integrity, and availability. Immediate remediation is required to prevent potential breaches.
+**Executive Summary:** During the authorized penetration test of DVWA application conducted on August 22, 2025, I identified and successfully exploited four critical vulnerabilities that could lead to complete system compromise. The application's current security posture presents significant risk to data confidentiality, integrity, and availability. Immediate remediation is required to prevent potential breaches.
 
 **Methodology:** Testing followed PTES methodology including reconnaissance, scanning, enumeration, exploitation, and post-exploitation phases. Both automated tools (sqlmap, OpenVAS) and manual testing techniques were employed to ensure comprehensive coverage.
 
@@ -687,7 +702,7 @@ I established persistence and collected evidence:
 
 #### Non-Technical Summary 
 
-security testing revealed serious vulnerabilities in the web application that could allow attackers to steal sensitive data, take control of the system, and disrupt operations. Think of it like finding unlocked doors and windows in a building that should be secure. These issues are similar to leaving passwords written on sticky notes or having no security cameras. We successfully demonstrated how an attacker could exploit these weaknesses to access confidential information. Immediate fixes are needed, including better password protection, input checking, and system monitoring. Regular security reviews should be scheduled to prevent future vulnerabilities.
+My security testing revealed serious vulnerabilities in the web application that could allow attackers to steal sensitive data, take control of the system, and disrupt operations. Think of it like finding unlocked doors and windows in a building that should be secure. These issues are similar to leaving passwords written on sticky notes or having no security cameras. We successfully demonstrated how an attacker could exploit these weaknesses to access confidential information. Immediate fixes are needed, including better password protection, input checking, and system monitoring. Regular security reviews should be scheduled to prevent future vulnerabilities.
 
 ### Remediation Validation
 
@@ -700,8 +715,9 @@ After suggesting fixes, I retested to confirm remediation:
     - Tried uploading PHP files
     - Result: Only images allowed
 
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755861875550.jpeg)
 
-![[Capstone Project Full VAPT Cycle-1755861875550.jpeg]]
+
 ## Conclusion and Lessons Learned
 
 Through this comprehensive VAPT lab series, I gained practical experience in:
