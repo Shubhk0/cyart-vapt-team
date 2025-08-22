@@ -13,7 +13,9 @@ I executed a complete penetration testing engagement following PTES (Penetration
 - Google Docs (Reporting platform)
 
 target machine ip checked
-![ScreenShot](https://raw.github.com/shubhk0/cyart-vapt-team/main/week2/Practical/screenshots/Capstone Project Full VAPT Cycle-1755849191131.jpeg)
+
+![ScreenShot](https://raw.githubusercontent.com/Shubhk0/cyart-vapt-team/refs/heads/main/week2/Practical/screenshots/Capstone%20Project%20Full%20VAPT%20Cycle-1755849191131.jpeg))]
+
 
 ![[Capstone Project Full VAPT Cycle-1755849191131.jpeg]] 
 attacker machine ip check 
